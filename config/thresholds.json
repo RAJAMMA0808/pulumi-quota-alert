@@ -1,4 +1,7 @@
 {
-"warning": 20,
-"critical": 30
+  "L-69A177A2": {
+    "warning": 10,
+    "critical": 20
+  }
 }
+

@@ -1,3 +1,4 @@
-name: pulumi-quota-alerts
+name: pulumi-quota-alert
 runtime: nodejs
-description: ALB service quota monitor with alerts
+description: Monitor AWS service quota with alarms
+

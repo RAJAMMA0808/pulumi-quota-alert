@@ -1,13 +1,6 @@
 {
-"name": "pulumi-quota-alerts",
-"version": "1.0.0",
-"dependencies": {
-"@pulumi/aws": "^6.0.0",
-"@pulumi/pulumi": "^6.0.0",
-"@aws-sdk/client-service-quotas": "^3.500.0"
-},
-"scripts": {
-"build": "tsc",
-"start": "pulumi up"
-}
+  "dependencies": {
+    "@pulumi/aws": "^7.1.0",
+    "@pulumi/pulumi": "^3.185.0"
+  }
 }

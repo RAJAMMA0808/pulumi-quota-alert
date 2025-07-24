@@ -1,7 +1,6 @@
-import { checkAlbQuota } from "./serviceQuota/albQuota";
-import { handleAlert } from "./alerts/thresholdCheck";
+import { createQuotaResources } from "./serviceQuota/createQuota";
+import { createQuotaAlarms } from "./alerts/createAlarm";
 
-(async () => {
-  const { usage, limit } = await checkAlbQuota();
-  await handleAlert("ALB", usage, limit);
-})();
+createQuotaResources();
+createQuotaAlarms();
+
